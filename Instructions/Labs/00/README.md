@@ -304,7 +304,11 @@ Perform all of the steps below from your **deployment VM**:
 
     > [!WARNING]: You may receive the message "TenantId 'xxxxxx-xxxx-xxxx-xxxx' contains more than one active subscription. The first one will be selected for further use. You can ignore this at this point. When you execute the environment setup, you will choose the subscription in which you deployed the environment resources.
 
-7. Execute `.\01-environment-setup.ps1`
+7. Execute `az login` and sign in to your Microsoft user account when prompted.
+
+    > If you receive the following error, and have already closed and re-opened the PowerShell window, you need to restart your computer and restart the steps in this task: `The term 'az' is not recognized as the name of a cmdlet, function, script file, or operable program`.
+
+8. Execute `.\01-environment-setup.ps1`
 
    1. You will be prompted to setup your Azure PowerShell and Azure CLI context.
 
