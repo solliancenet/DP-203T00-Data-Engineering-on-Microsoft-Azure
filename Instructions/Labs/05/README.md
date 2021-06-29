@@ -75,7 +75,7 @@ This lab requires a dedicated SQL pool. As a first step, create a new dedicated 
 
 4. After the virtual machine successfully starts, connect to it and complete the steps that follow.
 
-5. Execute the following to set the execution policy to Unrestricted so you can run the local PowerShell script file:
+5. Run PowerShell in Administrator mode, and execute the following to set the execution policy to Unrestricted so you can run the local PowerShell script file:
 
     ```powershell
     Set-ExecutionPolicy Unrestricted
