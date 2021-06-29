@@ -37,7 +37,7 @@ In this module, the student will be able to:
 
 ## Exercise 0: Create a new dedicated SQL pool and run setup script
 
-Time to complete: 24 minutes (*you can continue the lab while the script runs*)
+Time to complete: 24 minutes **(*you can continue the lab while the script runs*)**
 
 This lab requires a dedicated SQL pool. As a first step, create a new dedicated SQL pool. Then, execute a PowerShell script to load the dedicated SQL pool with data.
 
